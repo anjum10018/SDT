@@ -107,6 +107,8 @@
     <Folder Include="dbo\" />
     <Folder Include="dbo\Tables\" />
     <Folder Include="dbo\Stored Procedures\" />
+    <Folder Include="dbo\LookupData" />
+    <Folder Include="Snapshots" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\ABC.sql">
@@ -117,5 +119,11 @@
       <AnsiNulls>On</AnsiNulls>
       <QuotedIdentifier>On</QuotedIdentifier>
     </Build>
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="dbo\LookupData\Script.PostDeployment.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Snapshots\SDTDB_20150120_12-06-15.dacpac" />
   </ItemGroup>
 </Project>
