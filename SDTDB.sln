@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SDTDB", "SDTDB\SDTDB.sqlproj", "{CE4B854E-1675-4D2D-B19C-BD8123C2637F}"
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SDT", "SDTDB\SDT.sqlproj", "{CE4B854E-1675-4D2D-B19C-BD8123C2637F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

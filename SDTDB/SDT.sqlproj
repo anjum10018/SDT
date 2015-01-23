@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <Name>SDTDB</Name>
+    <Name>SDT</Name>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
     <ProjectGuid>{ce4b854e-1675-4d2d-b19c-bd8123c2637f}</ProjectGuid>
@@ -124,6 +124,7 @@
     <PostDeploy Include="dbo\LookupData\Script.PostDeployment.sql" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Snapshots\SDTDB_20150120_12-06-15.dacpac" />
+    <None Include="Snapshots\SDT_20150120_17-01-39.dacpac" />
+    <None Include="Snapshots\SDT_20150121_14-24-08.dacpac" />
   </ItemGroup>
 </Project>
